@@ -2,7 +2,8 @@
 
 .Container{
     background-color: aqua;
-    margin: 200px;
+    margin: 120px;
+    margin-top: 70px;
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 1fr 4fr 1fr;
@@ -13,6 +14,13 @@
     'Text'
     'Fussbereich'
     ;
+}
+
+.Navigationblock{
+    display: inline-block;
+    width: fit-content;
+    height: max-content;
+    margin : 20px;
 }
 
 header{
