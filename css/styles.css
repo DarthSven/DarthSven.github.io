@@ -1,0 +1,25 @@
+.Container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
+    grid-template-columns:  1fr;
+    grid-template-areas: 
+    'Kopf'
+    'Navigation'
+    'Text'
+    'Fussbereich'
+    ;
+}
+header{
+    grid-area: Kopf;
+
+}
+nav{
+    grid-area: Navigation;
+}
+Content{
+    grid-area: Text;
+}
+footer{
+    grid-area: Fussbereich;
+}
