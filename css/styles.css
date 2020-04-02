@@ -1,5 +1,7 @@
 @import "normalize.css";
-
+*{
+    padding: 10px;
+}
 .Container{
     height: 100vh;
     display: grid;
