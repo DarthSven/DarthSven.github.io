@@ -2,7 +2,7 @@
 
 .Container{
     background-color: aqua;
-    margin: 70px;
+    margin: 200px;
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 1fr 4fr 1fr;
