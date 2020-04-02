@@ -1,6 +1,6 @@
 @import "normalize.css";
 *{
-    padding: 10px;
+    padding: 100px;
 }
 .Container{
     height: 100vh;
